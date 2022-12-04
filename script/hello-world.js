@@ -2,4 +2,6 @@
 
 document.writeln("halo guyss");
 
+
+
 /* komentar Panjangg*/
