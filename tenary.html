@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// dengan if else
+        const nilai = 80;
+        let ucapan;
+
+        if(nilai >70){
+            ucapan = "lulus"
+        }
+        else{
+            ucapan = "kamu ndak lulus"
+        }
+
+        document.writeln(ucapan);
+
+// dengan tenary case
+        const uts = 80;
+        let nilaiuts = uts >=70 ? "lulus" : "tidak lulus"; 
+
+        document.writeln(`<h1> selamat ${nilaiuts} </h1>`);
+
+    </script>
+</body>
+</html>
